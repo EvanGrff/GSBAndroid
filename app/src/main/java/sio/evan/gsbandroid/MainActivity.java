@@ -24,7 +24,7 @@ public class Main extends Activity
 
     private void startup(Intent i)
     {
-        // Récupère l'identifiant
+        // Récupère l'identifiants
         int user = i.getIntExtra("userid",-1);
 
         //Affiche les identifiants de l'utilisateur
